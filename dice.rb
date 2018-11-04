@@ -1,5 +1,5 @@
 puts "How many dice?"
-num = gets.to_i
+num = gets.chomp.to_i
 
 num.times do
 puts rand(6) + 1
