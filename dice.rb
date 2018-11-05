@@ -7,12 +7,11 @@ end
 
 puts "How many dice?"
 num = gets.to_i
-
+sum = 0
 num.times do
-  array = []
-  sum = 0
+
   show_rolling_dice
-  puts rand(6) + 1
+
   array = rand(6) + 1
   sum += array
   puts  "sum of #{sum}"
@@ -20,5 +19,3 @@ end
 
 
 # array = rand(6) + 1
-#   sum += array
-#   puts  "sum of #{sum}"
